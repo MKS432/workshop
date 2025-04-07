@@ -1,4 +1,3 @@
-
 import { Button } from "./ui/button";
 import { useToast } from "./ui/use-toast";
 
@@ -13,8 +12,8 @@ const Registration = () => {
     });
   };
 
-  const isEarlyBird = new Date() <= new Date('2025-02-25');
-  const externalPrice = isEarlyBird ? 400 : 500;
+  const isEarlyBird = new Date() <= new Date('2025-04-15');
+  const externalPrice = isEarlyBird ? 2000 : 2500;
 
   return (
     <section id="register" className="py-20 bg-background-light">
@@ -31,22 +30,22 @@ const Registration = () => {
                 {isEarlyBird && (
                   <div className="mb-2">
                     <span className="bg-red-100 text-red-800 text-xs font-medium px-2.5 py-0.5 rounded">
-                      20% OFF Early Bird Discount till Feb 25, 2025
+                      20% OFF Early Bird Discount till April 15, 2025
                     </span>
                   </div>
                 )}
                 <p className="text-3xl font-bold text-primary">₹{externalPrice}</p>
                 {isEarlyBird && (
-                  <p className="text-sm text-gray-500 line-through">₹500</p>
+                  <p className="text-sm text-gray-500 line-through">₹2500</p>
                 )}
-                <p className="text-gray-600 mt-2">For industry professionals and external students (maximum 2 in a team)</p>
+                <p className="text-gray-600 mt-2">For industry professionals and external students</p>
               </div>
 
               <div className="space-y-4">
                 <h3 className="font-semibold">Includes:</h3>
                 <ul className="list-disc list-inside space-y-2 text-gray-600">
-                  <li>Two full days of hands-on training</li>
-                  <li>Workshop materials and resources</li>
+                  <li>Six full days of hands-on training</li>
+                  <li>SDP materials and resources</li>
                   <li>PCB design templates</li>
                   <li>Certificate of completion</li>
                 </ul>
@@ -62,15 +61,15 @@ const Registration = () => {
             <div className="space-y-6">
               <div className="text-center">
                 <p className="text-xl font-semibold mb-2">Internal Registration</p>
-                <p className="text-3xl font-bold text-primary">₹250</p>
-                <p className="text-gray-600 mt-2">For Shobhit University students (maximum 2 in a team)</p>
+                <p className="text-3xl font-bold text-primary">₹1500</p>
+                <p className="text-gray-600 mt-2">For Shobhit University students</p>
               </div>
 
               <div className="space-y-4">
                 <h3 className="font-semibold">Includes:</h3>
                 <ul className="list-disc list-inside space-y-2 text-gray-600">
-                  <li>Two full days of hands-on training</li>
-                  <li>Workshop materials and resources</li>
+                  <li>Six full days of hands-on training</li>
+                  <li>SDP materials and resources</li>
                   <li>PCB design templates</li>
                   <li>Certificate of completion</li>
                 </ul>

@@ -49,10 +49,10 @@ const Overview = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-            Workshop Overview
+            SDP Overview
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            A comprehensive 2-day workshop covering PCB design fundamentals, IoT integration,
+            A comprehensive 1-week Student Development Program (SDP) covering bio-signal acquisition, PCB design fundamentals, IoT integration,
             and cloud connectivity for biomedical applications.
           </p>
         </div>

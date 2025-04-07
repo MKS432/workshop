@@ -14,16 +14,23 @@ const Hero: React.FC = () => {
           className="absolute inset-0 opacity-20"
           style={{ backgroundImage: patternUrl }}
         />
-        <div className="h-12 flex items-center justify-center font-medium tracking-wide">
-          <div className="animate-[scroll_20s_linear_infinite] whitespace-nowrap flex items-center gap-8">
+        <div className="h-12 flex items-center overflow-hidden">
+          <div className="animate-scroll inline-flex whitespace-nowrap gap-8">
             <span className="inline-flex items-center gap-2">
-              🔔 <span className="text-yellow-300">IMPORTANT:</span> Last date of registration is 20th March 2025
+              🔔 <span className="text-yellow-300">IMPORTANT:</span> Last date of registration is 7th May 2025
             </span>
             <span className="inline-flex items-center gap-2">
               ⭐ <span className="text-yellow-300">HURRY UP:</span> Limited seats available
             </span>
             <span className="inline-flex items-center gap-2">
-              🔔 <span className="text-yellow-300">IMPORTANT:</span> Last date of registration is 20th March 2025
+              🔔 <span className="text-yellow-300">IMPORTANT:</span> Last date of registration is 7th May 2025
+            </span>
+            <span className="inline-flex items-center gap-2">
+              ⭐ <span className="text-yellow-300">HURRY UP:</span> Limited seats available
+            </span>
+            {/* Duplicate content for seamless loop */}
+            <span className="inline-flex items-center gap-2">
+              🔔 <span className="text-yellow-300">IMPORTANT:</span> Last date of registration is 7th May 2025
             </span>
             <span className="inline-flex items-center gap-2">
               ⭐ <span className="text-yellow-300">HURRY UP:</span> Limited seats available
@@ -38,16 +45,16 @@ const Hero: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center animate-fade-up">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            PCB Design & IoT with Cloud Integration
+            Smart Health Systems
             <span className="block text-2xl md:text-3xl mt-2 font-normal">
-              for Biomedical Applications
+              Hands-On Bio-Signal Acquisition, PCB Design & IoT Integration for Biomedical Applications
             </span>
           </h1>
           
           <div className="flex flex-col md:flex-row justify-center items-center gap-6 mb-8 text-sm md:text-base">
             <div className="flex items-center gap-2">
               <Calendar size={20} />
-              <span>March 28-29, 2025</span>
+              <span>May 12-17, 2025</span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin size={20} />
@@ -55,7 +62,7 @@ const Hero: React.FC = () => {
             </div>
             <div className="flex items-center gap-2">
               <Clock size={20} />
-              <span>9:30 AM - 5:30 PM</span>
+              <span>10:00 AM - 5:00 PM</span>
             </div>
           </div>
 

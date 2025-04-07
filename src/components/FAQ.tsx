@@ -1,4 +1,3 @@
-
 import { MapPin, Mail, Phone } from "lucide-react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
@@ -14,7 +13,7 @@ const FAQ = () => {
     const data = Object.fromEntries(formData);
     
     // Send email using mailto
-    const mailtoLink = `mailto:bhmsshobhituniversity@gmail.com?subject=Workshop Inquiry&body=Name: ${data.name}%0D%0AEmail: ${data.email}%0D%0AMessage: ${data.message}`;
+    const mailtoLink = `mailto:bhmsshobhituniversity@gmail.com?subject=SDP Inquiry&body=Name: ${data.name}%0D%0AEmail: ${data.email}%0D%0AMessage: ${data.message}`;
     window.open(mailtoLink);
     
     toast({
@@ -28,20 +27,20 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "What are the prerequisites for this workshop?",
+      question: "What are the prerequisites for this SDP?",
       answer: "Basic knowledge of electronics and PCB design concepts is required. Participants should bring their own laptop with internet connectivity.",
     },
     {
-      question: "Is the workshop suitable for beginners?",
-      answer: "While some basic knowledge is required, the workshop is structured to accommodate participants with varying levels of experience.",
+      question: "Is the SDP suitable for beginners?",
+      answer: "While some basic knowledge is required, the SDP is structured to accommodate participants with varying levels of experience.",
     },
     {
       question: "Will I receive a certificate?",
-      answer: "Yes, all participants will receive a certificate of completion from Shobhit University upon successfully completing the workshop.",
+      answer: "Yes, all participants will receive a certificate of completion from Shobhit University upon successfully completing the SDP.",
     },
     {
       question: "What software will we use?",
-      answer: "We will use industry-standard PCB design software and Google Cloud Platform. Detailed setup instructions will be provided before the workshop.",
+      answer: "We will use industry-standard PCB design software and Google Cloud Platform. Detailed setup instructions will be provided before the SDP.",
     },
   ];
 
@@ -101,7 +100,7 @@ const FAQ = () => {
                       <p>Phone: +91-9675190001</p>
                       <p>Fax: +91-121-2575724</p>
                       <p>Admission Helpline: +91-7617505016</p>
-                      <p>Workshop Contact: +91 7906960860, +91 9027283856</p>
+                      <p>SDP Contact: +91 7906960860, +91 9027283856</p>
                     </div>
                   </div>
                 </div>
