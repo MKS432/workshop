@@ -25,7 +25,7 @@ const Navbar = () => {
               alt="SBMS Logo" 
               className="h-16 w-auto mr-3" /* Increased logo size */
             />
-            <span className="text-primary font-bold text-xl">BioMed IoT Workshop</span>
+            <span className="text-primary font-bold text-xl">BioMed IoT SDP</span>
           </div>
           
           {/* Desktop menu */}
