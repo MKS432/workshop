@@ -1,7 +1,7 @@
 const Experts = () => {
   const experts = [
     {
-      name: "Dr. Manoj K Sharma",
+      name: "Dr. Manoj Kr. Sharma",
       role: "Signal Processing and Machine Learning",
       image: "/lovable-uploads/Dr.Manojkumarsharma.png",
       bio: "Research focuses on AI, Biomedical Signal Processing, and Embedded Systems, specializing in AI-driven biomedical applications, deep learning, and real-time health monitoring.",
