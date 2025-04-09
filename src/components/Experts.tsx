@@ -20,7 +20,7 @@ const Experts = () => {
     },
     {
       name: "Dr. Lomas Tomar",
-      role: "Director of BMHS Shobhit University, Meerut",
+      role: "Director of SBHS Shobhit University, Meerut",
       image: "/lovable-uploads/Lomas tomar.png",
       bio: "Research focuses on Biomedical Engineering, specializing in biomaterials, nanostructures, and advanced drug delivery systems.",
     },

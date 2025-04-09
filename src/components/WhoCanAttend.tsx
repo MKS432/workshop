@@ -5,7 +5,7 @@ const WhoCanAttend = () => {
     {
       icon: <GraduationCap className="w-8 h-8 text-primary" />,
       title: "Engineering Students",
-      description: "Currently enrolled in electronics, biomedical, or related fields",
+      description: "Currently enrolled in AI/ML, Biomedical, CSE, Data Science, Electronics, IoT, Robotics, Agri informatics or related engineering fields",
     },
     {
       icon: <BookOpen className="w-8 h-8 text-primary" />,
@@ -15,7 +15,7 @@ const WhoCanAttend = () => {
     {
       icon: <Users2 className="w-8 h-8 text-primary" />,
       title: "Faculty Members",
-      description: "Teaching or researching in relevant engineering disciplines",
+      description: "Educators or researchers in relevant engineering disciplines",
     },
     {
       icon: <Briefcase className="w-8 h-8 text-primary" />,

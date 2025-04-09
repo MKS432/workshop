@@ -91,7 +91,7 @@ const FAQ = () => {
                     <Mail className="text-primary flex-shrink-0" />
                     <div>
                       <p>mail@shobhituniversity.ac.in</p>
-                      <p>bhmsshobhituniversity@gmail.com</p>
+                      <p>bmhsshobhituniversity@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">

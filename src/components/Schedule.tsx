@@ -16,7 +16,7 @@ const Schedule = () => {
         { time: "01:00 – 02:00 PM", activity: "Lunch Break", facilitator: "" },
         { time: "02:00 – 02:30 PM", activity: "Overview of the Demo", facilitator: "Mrs. Dipika Sharma" },
         { time: "02:30 – 03:30 PM", activity: "Live Demo: ECG/EMG Acquisition", facilitator: "Dr. Manoj Kr. Sharma" },
-        { time: "03:30 – 04:00 PM", activity: "Intro to Arduino/ESP32, MATLAB/Python", facilitator: "Dr. Manoj Kr. Sharma" },
+        { time: "03:30 – 04:00 PM", activity: "Introduction to Arduino/ESP32, MATLAB/Python", facilitator: "Dr. Manoj Kr. Sharma" },
         { time: "04:00 – 05:00 PM", activity: "Recap, Q&A, Discussion", facilitator: "Mentors" },
       ]
     },
@@ -29,7 +29,7 @@ const Schedule = () => {
         { time: "12:00 – 12:30 PM", activity: "Group Activity / Quiz", facilitator: "Mrs. Dipika Sharma/Student coordinator" },
         { time: "12:30 – 01:00 PM", activity: "Safety Standards in Biomedical Circuits", facilitator: "Mrs. Dipika Sharma" },
         { time: "01:00 – 02:00 PM", activity: "Lunch Break", facilitator: "" },
-        { time: "02:00 – 02:30 PM", activity: "Intro to ECG, EEG & EMG Signals", facilitator: "Dr. Shiva Sharma" },
+        { time: "02:00 – 02:30 PM", activity: "Introduction to ECG, EEG & EMG Signals", facilitator: "Dr. Shiva Sharma" },
         { time: "02:30 – 03:30 PM", activity: "Circuit Simulation: Proteus / Falstad", facilitator: "Dr. Manoj Kr. Sharma" },
         { time: "03:30 – 04:00 PM", activity: "Measuring Signals (Oscilloscope/Laptop)", facilitator: "Mrs. Dipika Sharma" },
         { time: "04:00 – 05:00 PM", activity: "Signal Troubleshooting & Discussion", facilitator: "Mentors" },
@@ -38,7 +38,7 @@ const Schedule = () => {
     3: {
       title: "Day 3: PCB Design for Biomedical Signal Acquisition",
       sessions: [
-        { time: "10:00 – 10:30 AM", activity: "Intro to PCB Design Flow", facilitator: "Mrs. Dipika Sharma" },
+        { time: "10:00 – 10:30 AM", activity: "Introduction to PCB Design Flow", facilitator: "Mrs. Dipika Sharma" },
         { time: "10:30 – 11:30 AM", activity: "Software Overview: KiCad / EasyEDA / Flux AI", facilitator: "Dr. Manoj Kr. Sharma" },
         { time: "11:30 – 12:00 PM", activity: "Handling & Installation of PCB Tools", facilitator: "Dr. Manoj Kr. Sharma" },
         { time: "12:00 – 12:30 PM", activity: "Group Activity: PCB Review", facilitator: "Mentors" },
@@ -53,8 +53,8 @@ const Schedule = () => {
     4: {
       title: "Day 4: Introduction to IoT in Health Monitoring",
       sessions: [
-        { time: "10:00 – 10:30 AM", activity: "Role of IoT in Smart Health Systems", facilitator: "Mrs. Dipika Sharma" },
-        { time: "10:30 – 11:00 AM", activity: "Embedded Systems in Biomedical Devices", facilitator: "Dr. Rakhi Bhardwaj" },
+        { time: "10:00 – 10:30 AM", activity: "Role of IoT in Smart Health Systems", facilitator: "Dr. Rakhi Bhardwaj" },
+        { time: "10:30 – 11:00 AM", activity: "Embedded Systems in Biomedical Devices", facilitator: "Mrs. Dipika Sharma" },
         { time: "11:00 – 12:00 PM", activity: "ESP32/ESP8266/Arduino Nano 33 IoT Overview", facilitator: "Dr. Manoj Kr. Sharma" },
         { time: "12:00 – 12:30 PM", activity: "Group Activity / Circuit Connections", facilitator: "Mentors" },
         { time: "12:30 – 01:00 PM", activity: "Module Amplifier Wiring & Pin Mapping", facilitator: "Mrs. Dipika Sharma" },
